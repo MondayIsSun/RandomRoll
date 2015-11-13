@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorWhite"
+    android:fitsSystemWindows="true"
+    tools:context=".MainActivity">
+
+    <mr.lmd.personal.randomgvapplication.RollCallLayout
+        android:id="@+id/roll_call_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </mr.lmd.personal.randomgvapplication.RollCallLayout>
+
+    <!--<mr.lmd.personal.randomgvapplication.ResultView-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content">-->
+
+    <!--</mr.lmd.personal.randomgvapplication.ResultView>-->
+
+    <!--<LinearLayout-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="match_parent"-->
+    <!--android:layout_gravity="center"-->
+    <!--android:orientation="vertical"-->
+    <!--android:visibility="visible">-->
+
+    <!--<mr.lmd.personal.randomgvapplication.RollView-->
+    <!--android:id="@+id/myRandomRoll"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_marginTop="20dp">-->
+
+    <!--</mr.lmd.personal.randomgvapplication.RollView>-->
+
+    <!--</LinearLayout>-->
+
+    <!--<LinearLayout-->
+    <!--android:id="@+id/ll_roll_result"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_gravity="center"-->
+    <!--android:background="@color/background_floating_material_light"-->
+    <!--android:orientation="vertical"-->
+    <!--android:visibility="visible">-->
+
+    <!--<TextView-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_marginLeft="10dp"-->
+    <!--android:layout_marginTop="10dp"-->
+    <!--android:text="同学你很幸运的被点中了，请回答问题吧！"-->
+    <!--android:textColor="@color/background_material_dark"-->
+    <!--android:textSize="20sp" />-->
+
+    <!--<mr.lmd.personal.randomgvapplication.UserView-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_gravity="center"-->
+    <!--android:layout_marginTop="10dp">-->
+
+    <!--</mr.lmd.personal.randomgvapplication.UserView>-->
+
+    <!--<LinearLayout-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_gravity="center"-->
+    <!--android:layout_marginBottom="10dp"-->
+    <!--android:layout_marginTop="10dp"-->
+    <!--android:orientation="horizontal">-->
+
+    <!--<Button-->
+    <!--android:id="@+id/btn_roll_again"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:text="再点一次" />-->
+
+    <!--<Button-->
+    <!--android:id="@+id/btn_close"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:text="关闭" />-->
+
+    <!--</LinearLayout>-->
+
+    <!--</LinearLayout>-->
+
+</FrameLayout>

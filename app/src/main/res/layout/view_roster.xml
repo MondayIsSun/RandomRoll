@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/fl_roll"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#99000000">
+
+    <RelativeLayout
+        android:id="@+id/rl_roll_main"
+        android:layout_width="1180dp"
+        android:layout_height="670dp"
+        android:layout_gravity="center"
+        android:background="@drawable/roster_bg">
+
+        <RelativeLayout
+            android:id="@+id/rl_roll_head"
+            android:layout_width="match_parent"
+            android:layout_height="62dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:orientation="vertical">
+
+        </RelativeLayout>
+
+        <View
+            android:id="@+id/view_line_top"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_below="@+id/rl_roll_head"
+            android:background="#e5e5e5" />
+
+        <RelativeLayout
+            android:id="@+id/rl_roll_body"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/rl_roll_foot"
+            android:layout_below="@+id/rl_roll_head"
+            android:layout_centerHorizontal="true"
+            android:orientation="horizontal">
+
+            <mr.lmd.personal.randomgvapplication.RollView
+                android:id="@+id/view_roll"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true">
+
+            </mr.lmd.personal.randomgvapplication.RollView>
+
+        </RelativeLayout>
+
+        <View
+            android:id="@+id/view_line_foot"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_above="@+id/rl_roll_foot"
+            android:background="#e5e5e5" />
+
+        <RelativeLayout
+            android:id="@+id/rl_roll_foot"
+            android:layout_width="match_parent"
+            android:layout_height="62dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:orientation="vertical">
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/iv_exit_roll"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/image_roll_back_bg" />
+
+</FrameLayout>
